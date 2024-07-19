@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+#trending-cities {
+    background-image: url('images/trending-cities-bg.jpg'); /* Update path if necessary */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+
+
+.hero-section .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero-section .btn {
+    font-size: 1.25rem;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body h5 {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+}
+
+.card-body p {
+    margin-top: 0.5rem;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
